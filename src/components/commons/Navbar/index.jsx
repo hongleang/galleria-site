@@ -38,7 +38,7 @@ const Navbar = ({ slideShowStart, toggleSlideShow }) => {
     <NavStyles>
       <Container>
         <Link to="/">
-          <img src="/public/assets/shared/logo.svg" alt="Logo" />
+          <img src="/assets/shared/logo.svg" alt="Logo" />
         </Link>
         <Button onClick={() => {
           if (location.pathname === "/") {
